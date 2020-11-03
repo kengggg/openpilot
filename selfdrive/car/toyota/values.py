@@ -1251,6 +1251,26 @@ FW_VERSIONS = {
       b'\x028646F4707000\x00\x00\x00\x008646G2601400\x00\x00\x00\x00',
     ],
   },
+  CAR.LEXUS_NXH:{
+    (Ecu.esp, 0x7b0, None): [
+      b'F152678160\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.dsu,0x791, None): [
+      b'881517804300\x00\x00\x00\x00',
+    ],
+    (Ecu.eps, 0x7a1, None): [
+      b'8965B78100\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\x0237882000\x00\x00\x00\x00\x00\x00\x00\x00A4701000\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdRadar, 0x750, 0xf): [
+      b'8821F4702300\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdCamera, 0x750, 0x6d): [
+      b'8646F7801300\x00\x00\x00\x00',
+    ]
+  }
 }
 
 STEER_THRESHOLD = 100
